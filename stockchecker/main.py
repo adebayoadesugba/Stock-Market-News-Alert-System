@@ -1,6 +1,8 @@
 import requests
 from twilio.rest import Client
 
+# Code to check stock price movement and send news alerts via Twilio SMS
+
 VIRTUAL_TWILIO_NUMBER = "your virtual twilio number"
 VERIFIED_NUMBER = "your own phone number verified with Twilio"
 
